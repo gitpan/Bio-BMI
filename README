@@ -1,0 +1,31 @@
+NAME
+
+    Bio::BMI - Body Mass Index calculate
+
+SYNOPSIS
+
+      use Bio::BMI;
+      $alice_bmi = Bio::BMI::calc(168,57); # Alice = 168cm, 57kg
+      $bob_bmi = Bio::BMI::calc(182,91,2);# Bob = 182cm, 91 kg, has lost his right complete arm after an accident
+
+DESCRIPTION
+
+Modul written in Perl for calculating the "Body Mass Index" of an
+adult Person (above 18 years old) and interpreting the result using the
+international classification of WHO. This class considers amputation of
+body parts in its calculation also.
+
+Using international classification of adult BMI precised by WHO
+visible at http://apps.who.int/bmi/index.jsp?introPage=intro_3.html
+
+EXPORT
+
+    NOTHING
+
+AUTHOR
+
+    Stefan Gipper <stefanos@cpan.org>, http://www.coder-world.de/
+
+SEE ALSO
+
+    perl(1)
